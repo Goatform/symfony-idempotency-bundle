@@ -1,0 +1,34 @@
+{
+    "name": "goatform/symfony-idempotency-bundle",
+    "description": "",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/Goatform/symfony-idempotency-bundle",
+    "authors": [
+        {
+            "name": "Goatform"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "php",
+        "idempotency",
+        "symfony",
+        "symfony-bundle",
+        "symfony-plugin"
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Goatform\\IdempotencyBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goatform\\IdempotencyBundle\\Tests\\": "tests/"
+        }
+    }
+}
